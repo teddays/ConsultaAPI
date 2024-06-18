@@ -12,7 +12,7 @@ public class ConsultaApiMoneda {
 
     public Moneda consultaMoneda(String monedaOrigen,String monedaConversion){
 
-        String apiKey = "f041af840cd056d5b23fcea2";
+        String apiKey = "tu_API_KEy";
         //URI direccion = URI.create("https://v6.exchangerate-api.com/v6/" + apiKey + "/latest/" + monedaOrigen);
         URI direccion = URI.create("https://v6.exchangerate-api.com/v6/" + apiKey + "/pair/" + monedaOrigen + "/" + monedaConversion);
 
